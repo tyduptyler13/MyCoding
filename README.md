@@ -38,15 +38,34 @@ Not yet available. Please use the CLI for now.
 
 Lessons
 =======
+Learning from the ground up
 
 Lesson0
 -------
-
 This lesson does not require any actual coding but will show you the basics of how these lessons will work.
 
 Lesson1
 -------
-
 Hello world. You will learn to write a program that says hello and how to use STDIN and STDOUT.
 
+Lesson2
+-------
+Learning for loops, some types, and simple conditions.
 
+Intermediate Lessons
+====================
+More advanced concepts
+
+Most of these challenges will require some exploring and lots of trial and error
+to master.
+
+__Coming soon__
+
+Advanced Lessons
+================
+Learning advanced topics
+
+These topics will require lots of external research (usually) and lots of trial
+and error to even get working correctly.
+
+__Coming eventually__
