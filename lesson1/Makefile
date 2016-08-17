@@ -5,9 +5,9 @@ all:
 
 test: all
 	@echo "Testing \"name\""
-	@./lesson1 <<< "name" | egrep -q "Hello name" && echo "Passed." || echo "Failed. Expected Hello, name"
+	@./lesson1 <<< "name" | egrep -q "Hello, name" && echo "Passed." || echo "Failed. Expected Hello, name"
 	@echo "Testing \"name and eman\""
-	@./lesson1 <<< "name and eman" | egrep -q "Hello name" && echo "Passed." || echo "Failed. Expected Hello, name"
+	@./lesson1 <<< "name and eman" | egrep -q "Hello, name" && echo "Passed." || echo "Failed. Expected Hello, name"
 
 clean:
 	rm lesson1

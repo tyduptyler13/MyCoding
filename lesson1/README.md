@@ -6,10 +6,11 @@ Hello world with some standard io.
 Task
 ----
 In this lesson your goal is to write code inside main that accepts input
-and outputs a line in the following format: `Hello <input>`.
+and outputs a line in the following format: `Hello, <input>`.
 
 The input will always be one line (terminated by \n)
 The input will always 0 or more characters.
+If input contains spaces, you should only consume the first name. (Default cin behavior)
 
 Please edit lesson1.cpp
 
