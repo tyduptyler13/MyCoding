@@ -6,6 +6,17 @@ How to use
 Welcome to MyCoding. This is a simple and easy tutorial suite for basic coding in
 C++.
 
+Recommended method
+------------------
+The best method to experience these programming excersizes is using the platform
+c9. Create an account and reference this github project and it will automatically
+clone it into your workspace. It also has all of the dependencies you should need
+already installed by default. The default c9 editor is plenty powerful and the
+terminal works great. You will still need to know how to navigate around using a
+terminal. See CLI to continue.
+
+Personal Method
+---------------
 In order to participate in the challenge you must have the following installed on
 your computer.
 
@@ -83,6 +94,14 @@ a new purpose.
 Lesson5
 -------
 Classes and the basics of object oriented programming.
+
+Lesson6
+-------
+Pointers/References and the power of c++.
+
+Lesson7
+-------
+Polymorphism
 
 
 Intermediate Lessons
