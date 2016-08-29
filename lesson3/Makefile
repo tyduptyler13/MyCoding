@@ -7,11 +7,8 @@ all: code.o
 ../deps/googletest/googletest/libgtest.a: | ../deps/googletest/googletest
 	cd ../deps/googletest/googletest && cmake . && make
 
-../deps/googletest/googletest: ../deps/googletest
-	git submodule update ../deps/googletest
-
-../deps/googletest:
-	git submodule init ../deps/googletest
+../deps/googletest/googletest:
+	git submodule init ../deps/googletest && git submodule update ../deps/googletest
 
 code.o: code.cpp
 	$(CXX) $(CFLAGS) -c code.cpp -o code.o
