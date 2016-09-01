@@ -88,8 +88,7 @@ Functions - Learning to create functions for doing things we will do repeatedly.
 
 Lesson4
 -------
-Reusing functions for new purposes - Learning to encapsulate old code to serve
-a new purpose.
+Arrays - Learning how arrays can help with your tasks.
 
 Lesson5
 -------
