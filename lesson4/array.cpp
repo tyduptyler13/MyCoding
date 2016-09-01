@@ -4,7 +4,7 @@
 
 #include <string>
 
-#include "gtest/gtest.hpp"
+#include "gtest/gtest.h"
 
 using namespace std;
 
