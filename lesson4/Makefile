@@ -1,6 +1,6 @@
 
 CFLAGS=-Wall -Wextra -pedantic --std=c++11
-TESTFLAGS=-L../deps/googletest/googletest/ -lgtest -lgtest_main
+TESTFLAGS=-L../deps/googletest/googletest/ -lgtest -lgtest_main -lpthread
 
 all:
 	@echo "Please use make grade or make test"

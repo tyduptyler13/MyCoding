@@ -3,26 +3,29 @@
  */
 
 #include <string>
+//The following are recommended, but not required. See cppreference.com for details on what these contain.
+#include <regex>
+#include <locale>
+#include <algorithm>
 
 #include "gtest/gtest.h"
 
 using namespace std;
 
-bool isPalindrome(string s) {
+bool isPalindrome(string s, bool clean = false) {
     //Your code goes here.
-    return false;
+
 }
 
-//No main is required for this test.
+//No main is required for this lesson.
 
 //Run make test1 for testing this task alone.
 
-//The following is your test cases
-
+//This is the default test cases, you will AT LEAST see these in the grading script.
 TEST(Lesson4, Default){
     
     EXPECT_TRUE(isPalindrome("race car"));
-    EXPECT_TRUE(isPalindrome("stressed"));
+    EXPECT_FALSE(isPalindrome("stressed"));
     EXPECT_TRUE(isPalindrome("A man, a plan, a canal, Panama!"));
     EXPECT_TRUE(isPalindrome("Dammit I’m mad."
         "Evil is a deed as I live."
@@ -61,6 +64,8 @@ TEST(Lesson4, Default){
     EXPECT_TRUE(isPalindrome(" aaa")); //Weird whitespace
     EXPECT_TRUE(isPalindrome(" a a  a   ")); //More weird whitespace.
 }
+
+//The following is your test cases
 
 TEST(Lesson4, Custom){
     //If you have test cases add them here.
